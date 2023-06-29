@@ -205,10 +205,19 @@ hr {
     float: left;
     padding: 30px 0 0 10px;
     text-align: center;
-    border: 2px solid #fff;
+    border: 2px solid white;
     box-sizing: border-box;
 }
 
 #times h2 {
     color: #fafafa;
+}
+
+#social-icons {
+    overflow: hidden;
+}
+
+#social-icons div {
+    height: 180px;
+    text-align: center;
 }
