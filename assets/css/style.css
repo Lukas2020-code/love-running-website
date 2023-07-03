@@ -343,3 +343,7 @@ footer {
         column-count: 2;
     }
 }
+
+#signup-image {
+    background: url('../images/');
+}
