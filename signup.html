@@ -8,14 +8,13 @@
     <meta name="decsriptnion" content="Love Running club for runners in Tuam area, Co. Galway, Ireland">
     <meta name="keywords" content="love running, running club, ireland, tuam, co. galway,">
     <link rel="stylesheet" href="assets/css/style.css">
-    <title>Sign Up!</title>
+    <title>Sing Up</title>
 </head>
 
 <body>
-
     <header>
         <a href="index.html">
-            <h1 id="logo">Love Running</h1>
+            <h2 id="logo">Love Running</h2>
         </a>
         <nav>
             <ul id="menu">
@@ -33,28 +32,31 @@
     </header>
 
     <section class="form-section">
-        <form class="signup-form" method="post" action="https://formdump.codeinstitute.net/">
-            <h2>:et's get you signed up! <i class="fas fa-heartbeat"></i></h2>
 
+        <form class="signup-form" action="https://formdump.codeinstitute.net/" method="post">
+            <h2>Let's get you signed up! <i class="fas fa-heartbeat"></i></h2>
+            <!-- input fields -->
             <label for="fname">First Name</label>
-            <input id="fname" class="text-input" name="first_name" type="text" required>
+            <input id="fname" class="text-input" type="text" name="first_name" required>
+
             <label for="lname">Last Name</label>
-            <input id="lname" class="text-input" name="last_name" type="text" required>
+            <input id="lname" class="text-input" type="text" name="last_name" required>
+
             <label for="email">Email Address</label>
-            <input id="email" class="text-input" name="email_address" type="email" required>
+            <input id="email" class="text-input" type="email" name="email_address" required>
+            <!-- radio -->
+            <label for="road">Road</label>
+            <input id="road" type="radio" name="running_preference" value="road" required>
 
-            <Label for="road">Road</Label>
-            <input id="road" name="running_preference" value="road" type="radio" required>
-            <Label for="trail">Trail</Label>
-            <input id="trail" name="running_preference" value="trail" type="radio">
-            <Label for="both">Both</Label>
-            <input id="both" name="running_preference" value="both" type="radio">
-            
-            <input class="join-button" type="submit" value="Let's Run!">
+            <label for="trial">Trial</label>
+            <input id="trial" type="radio" name="running_preference" value="trial">
+
+            <label for="both">Both</label>
+            <input id="both" type="radio" name="running_preference" value="both">
+            <!-- submit button -->
+            <input type="submit" class="join-button" value="Let's Run!">
+
         </form>
-
-
-
 
     </section>
 
@@ -82,8 +84,7 @@
 
     <!-- font awesome script -->
     <script src="https://kit.fontawesome.com/95addb1658.js" crossorigin="anonymous"></script>
+
 </body>
-
-
 
 </html>
